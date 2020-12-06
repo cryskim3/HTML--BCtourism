@@ -1,0 +1,295 @@
+/*Base Style*/
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0efff;
+    margin: 0;
+}
+
+#wrapper{
+    width: 90%;
+    background-color: #fff;
+   margin: 0 auto;
+}
+
+header{
+    background-color: #062539;
+    margin: 0;
+    color: white;
+    font-weight: lighter;
+}
+
+header h1{
+    background-color: #3c556b;
+    padding: 2%;
+    margin: 0;
+}
+
+header h2{
+    background-color: #062539;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    
+}
+
+#index-banner{
+    background-image: url("images/banner.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0,0);
+    margin: 0;
+    
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color:white;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav{
+    margin: 0;
+    background-color: #1167b1;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    
+}
+nav li{
+    display: inline;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    
+}
+
+main {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    clear: both;
+    background-color:#3c556b;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 10px;
+
+}
+footer>p{
+    text-align: center;
+}
+
+
+/*home page layout*/
+
+#home-main h2{
+    padding: 3%;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.idxmain img {
+    width: 300px;
+    height: 200px;
+    
+}
+.idxmain {
+    float: left;
+    width: 35%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+#main-text{
+text-align: justify;
+padding-right: 5%;
+}
+
+
+#home-sub{
+    clear: both;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#home-sub h2{
+    padding: 2%;
+    font-size: 30px;
+    
+
+}
+#home-sub>p{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*home page pictures*/
+
+#pictures {
+    padding: 1%;
+    align-content: center;
+}
+
+.idximgs img {
+    width: 200px;
+    height: 150px;
+}
+
+.idximgs{
+    float: left;
+    padding-inline-start: 5%;
+    margin-bottom: 10%;
+    font-size: 10px;
+    
+}
+
+
+
+/* Travel tips page layout*/
+
+#wrapper-tips{
+    width: 90%;
+    background-color: #fff;
+   margin: 0 auto;
+}
+
+#tip-banner{
+    background-image: url("images/banner2.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0,0);
+    margin: 0;
+}
+
+#traveltips h2{
+    text-align: center;
+    padding: 2%;
+}
+
+#traveltips p{
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#traveltips ul{
+    text-align: justify;
+    padding-right: 11%;
+    padding-left: 11%;
+    padding-top: 2%;
+}
+#traveltips li{
+    padding: 3px;
+}
+
+#tips-to-contact h2{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#tips-to-contact a{
+    text-decoration: none;
+}
+
+/*contact info page layout*/
+#wrapper-contact{
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.contactbox{
+    background: lightgray;
+    padding: 10%;
+}
+
+form{
+    text-align: left;
+    padding: 2%;
+}
+
+label {
+    font-size: 15px;
+}
+
+input[type=text], input[type=text],select,textarea{
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit]{
+background: #671cdf8c;
+margin: 0 auto;
+color: white;
+border-radius: 4px;
+transition: all ease-in-out 0.1s;
+}
+
+#contact-banner{
+    background-image: url("images/banner3.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0,0);
+    margin: 0;
+}
+#contactguide {
+    padding-top: 5%;
+}
+
+#contactguide h3{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2%;
+}
+#operation-hour{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+#operation-hour p{
+    text-align: center;
+    margin: 0;
+}
+
